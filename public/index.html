@@ -3,10 +3,14 @@
   <head>
     <title>Login Form</title>
     <!-- Include CSS files for Bootstrap -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Include your custom CSS file -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -15,7 +19,7 @@
       <div class="row justify-content-center">
         <div class="col-sm-6">
           <h2>Login</h2>
-          <form id="loginForm">
+          <form id="loginForm" method="post">
             <div class="form-group">
               <label for="email">Email</label>
               <input
